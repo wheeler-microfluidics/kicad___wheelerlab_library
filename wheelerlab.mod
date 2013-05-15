@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  06/05/2013 12:15:08 PM
+PCBNEW-LibModule-V1  15/05/2013 5:27:05 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -64,6 +64,7 @@ H21
 HC49U-V
 JACK_BARREL
 JACK_BNC
+JACK_SMA
 KH206-8
 KK-156-4
 ML10
@@ -7414,6 +7415,62 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE JACK_BNC
+$MODULE JACK_SMA
+Po 0 0 0 15 5193FDA2 00000000 ~~
+Li JACK_SMA
+Cd http://search.digikey.com/scripts/DkSearch/dksus.dll?Detail&name=A32245-ND
+Kw CONN JACK BNC
+Sc 0
+AR /4B9589F9
+Op 0 0 0
+T0 0 -5.08 1.016 1.016 0 0.254 N V 21 N "J1"
+T1 0 5.2 1.016 1.016 0 0.254 N V 21 N "JACK_SMA"
+DS 4 -4 -4 -4 0.381 21
+DS -4 -4 -4 4 0.381 21
+DS -4 4 4 4 0.381 21
+DS 4 4 4 -4 0.381 21
+$PAD
+Sh "2" C 2.4 2.4 0 0 0
+Dr 1.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 -2.54
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 -2.54
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.54 2.54
+$EndPAD
+$PAD
+Sh "1" C 2.5 2.5 0 0 0
+Dr 1.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.54 2.54
+$EndPAD
+$SHAPE3D
+Na "connectors/POWER_21.wrl"
+Sc 0.8 0.8 0.8
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE JACK_SMA
 $MODULE KH206-8
 Po 0 0 0 15 4D3F94B5 00000000 ~~
 Li KH206-8
