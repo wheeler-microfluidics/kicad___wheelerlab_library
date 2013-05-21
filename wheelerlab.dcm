@@ -1,14 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 12/03/2013 12:53:49 PM
-#
-$CMP 10POS_SW
-D Interrupteur simple
-K switch
-$ENDCMP
-#
-$CMP 12POS_SW
-D Interrupteur simple
-K switch
-$ENDCMP
+EESchema-DOCLIB  Version 2.0  Date: 21/05/2013 12:35:53 PM
 #
 $CMP 4POS_SW
 D Interrupteur simple
