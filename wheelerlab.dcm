@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 24/05/2015 4:08:35 PM
+EESchema-DOCLIB  Version 2.0
 #
 $CMP 4POS_SW
 D Interrupteur simple
@@ -38,6 +38,12 @@ $ENDCMP
 $CMP HV507
 D Symbole general de connexion
 K CONN
+$ENDCMP
+#
+$CMP IRF644PBF
+D 250V Vds, 14A Id, 280mOhm Rds, N-Channel MOSFET, TO-220AB
+K N-Channel Power MOSFET
+F http://www.vishay.com/docs/91039/91039.pdf
 $ENDCMP
 #
 $CMP PQFP_80
