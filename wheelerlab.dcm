@@ -40,6 +40,11 @@ D Symbole general de connexion
 K CONN
 $ENDCMP
 #
+$CMP HV513
+D Symbole general de connexion
+K CONN
+$ENDCMP
+#
 $CMP IRF644PBF
 D 250V Vds, 14A Id, 280mOhm Rds, N-Channel MOSFET, TO-220AB
 K N-Channel Power MOSFET
