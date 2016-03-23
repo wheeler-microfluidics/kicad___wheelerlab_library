@@ -51,6 +51,11 @@ K N-Channel Power MOSFET
 F http://www.vishay.com/docs/91039/91039.pdf
 $ENDCMP
 #
+$CMP PHC2300
+D Transistor N-MOSFET (general)
+K nmos n-mos n-mosfet transistor
+$ENDCMP
+#
 $CMP PQFP_80
 D Symbole general de connexion
 K CONN
