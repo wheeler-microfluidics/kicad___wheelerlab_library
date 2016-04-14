@@ -52,8 +52,8 @@ F http://www.vishay.com/docs/91039/91039.pdf
 $ENDCMP
 #
 $CMP PHC2300
-D Transistor N-MOSFET (general)
-K nmos n-mos n-mosfet transistor
+D Complementary enhancement mode MOS transistors
+K complementary pair transistors
 $ENDCMP
 #
 $CMP PQFP_80
@@ -64,6 +64,11 @@ $ENDCMP
 $CMP SODIMM144
 D SODIMM144
 K SODIMM 144
+$ENDCMP
+#
+$CMP TC1550
+D Complementary enhancement mode MOS transistors
+K complementary pair transistors
 $ENDCMP
 #
 #End Doc Library
