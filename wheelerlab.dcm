@@ -35,6 +35,12 @@ D Symbole general de connexion
 K CONN
 $ENDCMP
 #
+$CMP HIH6000
+D Temperature/Humidity sensor
+K Temperature, Humidity, I2c
+F http://sensing.honeywell.com/index.php?ci_id=147070
+$ENDCMP
+#
 $CMP HV507
 D Symbole general de connexion
 K CONN
