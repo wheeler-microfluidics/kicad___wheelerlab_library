@@ -5,9 +5,20 @@ D Interrupteur simple
 K switch
 $ENDCMP
 #
+$CMP 74AHC1G32
+D Or 2 inputs
+K TTL Or2
+$ENDCMP
+#
 $CMP 74LVC1G86
 D Quad Xor 2 inputs
 K CMOS XOR2
+$ENDCMP
+#
+$CMP CAT5171
+D Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
 $ENDCMP
 #
 $CMP CONN_16
