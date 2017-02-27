@@ -68,6 +68,12 @@ K N-Channel Power MOSFET
 F http://www.vishay.com/docs/91039/91039.pdf
 $ENDCMP
 #
+$CMP IRF9388TRPBF
+D HexFET P-MOS Power Mosfet, Vds -30V, Rdson 0.0119R, Id -12A, SO-8
+K HexFET Power Mosfet P-MOS
+F http://www.irf.com/product-info/datasheets/data/irf9388pbf.pdf
+$ENDCMP
+#
 $CMP PHC2300
 D Complementary enhancement mode MOS transistors
 K complementary pair transistors
