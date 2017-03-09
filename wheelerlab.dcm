@@ -15,6 +15,10 @@ D Quad Xor 2 inputs
 K CMOS XOR2
 $ENDCMP
 #
+$CMP CAT24C02TDI
+D ON Semiconductor IC EEPROM 2KBIT 400KHZ TSOT23-5
+$ENDCMP
+#
 $CMP CAT5171
 D Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm
 K R POT
