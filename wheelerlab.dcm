@@ -82,6 +82,24 @@ K HexFET Power Mosfet P-MOS
 F http://www.irf.com/product-info/datasheets/data/irf9388pbf.pdf
 $ENDCMP
 #
+$CMP MCP41010
+D Single Digital Potentiometer, SPI interface, 256 taps, 10 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP41050
+D Single Digital Potentiometer, SPI interface, 256 taps, 50 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
+$CMP MCP41100
+D Single Digital Potentiometer, SPI interface, 256 taps, 100 kohm
+K R POT
+F http://ww1.microchip.com/downloads/en/DeviceDoc/11195c.pdf
+$ENDCMP
+#
 $CMP PHC2300
 D Complementary enhancement mode MOS transistors
 K complementary pair transistors
