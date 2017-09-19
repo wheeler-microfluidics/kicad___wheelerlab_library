@@ -20,8 +20,8 @@ D 300mA low dropout linear regulator, shutdown pin, 5V fixed positive output, SO
 K linear regulator ldo fixed positive
 $ENDCMP
 #
-$CMP CAT24C02TDI
-D ON Semiconductor IC EEPROM 2KBIT 400KHZ TSOT23-5
+$CMP CAT24C__TD_
+D ON Semiconductor IC EEPROM 400KHZ TSOT23-5
 $ENDCMP
 #
 $CMP CAT5171
